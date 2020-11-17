@@ -1,0 +1,2 @@
+# COPY WITH SCP COMMAND
+scp -P 3832 -i ~/.ssh/id_rsa_rsync /tmp/file_id/* root@10.250.12.19://tmp/file_id/
