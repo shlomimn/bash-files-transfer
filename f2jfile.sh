@@ -56,6 +56,7 @@ do
 
      cp /tmp/file_id/$line .
      chmod 644 $line
+     chown bionic:bionic $line
   }
 done < $FILE
 
